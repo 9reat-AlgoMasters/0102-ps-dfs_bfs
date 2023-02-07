@@ -26,6 +26,7 @@ public class Main {
         }
 
 
+
         visited.add(1);
         search(1,0);
         //처음에 1을 추가했기 때문에 size -1
