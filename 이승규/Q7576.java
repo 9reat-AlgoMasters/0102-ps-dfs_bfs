@@ -48,7 +48,7 @@ public class Q7576 {
         }
 
         // bfs 수행
-        solve(N);
+        solve();
 
 
         // bfs수행 후 탐색하지 못한 곳(토마토가 익을 수 있는데 못익은 곳)이 있다면 -1리턴. 아니면 cnt리턴
@@ -64,7 +64,7 @@ public class Q7576 {
 
     }
 
-    static void solve(int n) {
+    static void solve() {
 
         // 제일 처음에 1로 입력 된 곳의 인덱스를 배열형식으로 queue에 넣고, visited 확인
         OK = 0;
